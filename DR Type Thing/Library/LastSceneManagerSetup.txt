@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/playground.unity
+- path: Assets/ShooterAssets/_Complete-Game/_Complete-Game.unity
   isLoaded: 1
   isActive: 1
