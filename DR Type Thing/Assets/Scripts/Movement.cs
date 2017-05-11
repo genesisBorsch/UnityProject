@@ -5,8 +5,9 @@ using UnityEngine.AI;
 
 public class Movement : MonoBehaviour {
 
-	public Transform target;
+	Transform target;
 	NavMeshAgent agent;
+
 	// Use this for initialization
 	void Start () {
 		agent = GetComponent<NavMeshAgent>();
@@ -14,7 +15,8 @@ public class Movement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		agent.SetDestination (target.position);
+		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+		
 		
 	}
 }
