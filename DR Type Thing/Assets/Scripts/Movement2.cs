@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Movement2 : MonoBehaviour {
-	public int speed;
+public class Player : MonoBehaviour {
 	private NavMeshAgent navMeshAgent;
 
 	// Use this for initialization
